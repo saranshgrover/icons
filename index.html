@@ -24,10 +24,16 @@
         list-style: none;
       }
 
+      .icons-list li a {
+        /* Override default link color so the <li> colors can come through.*/
+        color: inherit;
+      }
+
       .icons-list li {
+        color: black;
+        background-color: #f9f9f9;
         float: left;
         padding: 5px;
-        background-color: #f9f9f9;
         border: 1px solid #fff;
         text-align: center;
         width: 33%;
@@ -37,6 +43,11 @@
       .icons-list li:hover {
         color: #fff;
         background-color: #563d7c;
+      }
+
+      .icons-list li:target {
+        color: black;
+        background-color: yellow;
       }
 
       .icons-list li span {
@@ -120,134 +131,186 @@
           <div class="icons">
             <ul class="icons-list">
               
-                <li>
-                  <span class="cubing-icon icon-222"></span>
-                  <span>cubing-icon icon-222</span>
+                <li id="222">
+                  <a href="#222">
+                    <span class="cubing-icon icon-222"></span>
+                    <span>cubing-icon icon-222</span>
+                  </a>
                 </li>
               
-                <li>
-                  <span class="cubing-icon icon-333"></span>
-                  <span>cubing-icon icon-333</span>
+                <li id="333">
+                  <a href="#333">
+                    <span class="cubing-icon icon-333"></span>
+                    <span>cubing-icon icon-333</span>
+                  </a>
                 </li>
               
-                <li>
-                  <span class="cubing-icon icon-333bf"></span>
-                  <span>cubing-icon icon-333bf</span>
+                <li id="333bf">
+                  <a href="#333bf">
+                    <span class="cubing-icon icon-333bf"></span>
+                    <span>cubing-icon icon-333bf</span>
+                  </a>
                 </li>
               
-                <li>
-                  <span class="cubing-icon icon-333fm"></span>
-                  <span>cubing-icon icon-333fm</span>
+                <li id="333fm">
+                  <a href="#333fm">
+                    <span class="cubing-icon icon-333fm"></span>
+                    <span>cubing-icon icon-333fm</span>
+                  </a>
                 </li>
               
-                <li>
-                  <span class="cubing-icon icon-333ft"></span>
-                  <span>cubing-icon icon-333ft</span>
+                <li id="333ft">
+                  <a href="#333ft">
+                    <span class="cubing-icon icon-333ft"></span>
+                    <span>cubing-icon icon-333ft</span>
+                  </a>
                 </li>
               
-                <li>
-                  <span class="cubing-icon icon-333mbf"></span>
-                  <span>cubing-icon icon-333mbf</span>
+                <li id="333mbf">
+                  <a href="#333mbf">
+                    <span class="cubing-icon icon-333mbf"></span>
+                    <span>cubing-icon icon-333mbf</span>
+                  </a>
                 </li>
               
-                <li>
-                  <span class="cubing-icon icon-333oh"></span>
-                  <span>cubing-icon icon-333oh</span>
+                <li id="333oh">
+                  <a href="#333oh">
+                    <span class="cubing-icon icon-333oh"></span>
+                    <span>cubing-icon icon-333oh</span>
+                  </a>
                 </li>
               
-                <li>
-                  <span class="cubing-icon icon-444"></span>
-                  <span>cubing-icon icon-444</span>
+                <li id="444">
+                  <a href="#444">
+                    <span class="cubing-icon icon-444"></span>
+                    <span>cubing-icon icon-444</span>
+                  </a>
                 </li>
               
-                <li>
-                  <span class="cubing-icon icon-444bf"></span>
-                  <span>cubing-icon icon-444bf</span>
+                <li id="444bf">
+                  <a href="#444bf">
+                    <span class="cubing-icon icon-444bf"></span>
+                    <span>cubing-icon icon-444bf</span>
+                  </a>
                 </li>
               
-                <li>
-                  <span class="cubing-icon icon-555"></span>
-                  <span>cubing-icon icon-555</span>
+                <li id="555">
+                  <a href="#555">
+                    <span class="cubing-icon icon-555"></span>
+                    <span>cubing-icon icon-555</span>
+                  </a>
                 </li>
               
-                <li>
-                  <span class="cubing-icon icon-555bf"></span>
-                  <span>cubing-icon icon-555bf</span>
+                <li id="555bf">
+                  <a href="#555bf">
+                    <span class="cubing-icon icon-555bf"></span>
+                    <span>cubing-icon icon-555bf</span>
+                  </a>
                 </li>
               
-                <li>
-                  <span class="cubing-icon icon-666"></span>
-                  <span>cubing-icon icon-666</span>
+                <li id="666">
+                  <a href="#666">
+                    <span class="cubing-icon icon-666"></span>
+                    <span>cubing-icon icon-666</span>
+                  </a>
                 </li>
               
-                <li>
-                  <span class="cubing-icon icon-777"></span>
-                  <span>cubing-icon icon-777</span>
+                <li id="777">
+                  <a href="#777">
+                    <span class="cubing-icon icon-777"></span>
+                    <span>cubing-icon icon-777</span>
+                  </a>
                 </li>
               
-                <li>
-                  <span class="cubing-icon icon-clock"></span>
-                  <span>cubing-icon icon-clock</span>
+                <li id="clock">
+                  <a href="#clock">
+                    <span class="cubing-icon icon-clock"></span>
+                    <span>cubing-icon icon-clock</span>
+                  </a>
                 </li>
               
-                <li>
-                  <span class="cubing-icon icon-minx"></span>
-                  <span>cubing-icon icon-minx</span>
+                <li id="minx">
+                  <a href="#minx">
+                    <span class="cubing-icon icon-minx"></span>
+                    <span>cubing-icon icon-minx</span>
+                  </a>
                 </li>
               
-                <li>
-                  <span class="cubing-icon icon-pyram"></span>
-                  <span>cubing-icon icon-pyram</span>
+                <li id="pyram">
+                  <a href="#pyram">
+                    <span class="cubing-icon icon-pyram"></span>
+                    <span>cubing-icon icon-pyram</span>
+                  </a>
                 </li>
               
-                <li>
-                  <span class="cubing-icon icon-skewb"></span>
-                  <span>cubing-icon icon-skewb</span>
+                <li id="skewb">
+                  <a href="#skewb">
+                    <span class="cubing-icon icon-skewb"></span>
+                    <span>cubing-icon icon-skewb</span>
+                  </a>
                 </li>
               
-                <li>
-                  <span class="cubing-icon icon-sq1"></span>
-                  <span>cubing-icon icon-sq1</span>
+                <li id="sq1">
+                  <a href="#sq1">
+                    <span class="cubing-icon icon-sq1"></span>
+                    <span>cubing-icon icon-sq1</span>
+                  </a>
                 </li>
               
-                <li>
-                  <span class="cubing-icon icon-10e3"></span>
-                  <span>cubing-icon icon-10e3</span>
+                <li id="10e3">
+                  <a href="#10e3">
+                    <span class="cubing-icon icon-10e3"></span>
+                    <span>cubing-icon icon-10e3</span>
+                  </a>
                 </li>
               
-                <li>
-                  <span class="cubing-icon icon-A3d1"></span>
-                  <span>cubing-icon icon-A3d1</span>
+                <li id="A3d1">
+                  <a href="#A3d1">
+                    <span class="cubing-icon icon-A3d1"></span>
+                    <span>cubing-icon icon-A3d1</span>
+                  </a>
                 </li>
               
-                <li>
-                  <span class="cubing-icon icon-A4b"></span>
-                  <span>cubing-icon icon-A4b</span>
+                <li id="A4b">
+                  <a href="#A4b">
+                    <span class="cubing-icon icon-A4b"></span>
+                    <span>cubing-icon icon-A4b</span>
+                  </a>
                 </li>
               
-                <li>
-                  <span class="cubing-icon icon-A4b1"></span>
-                  <span>cubing-icon icon-A4b1</span>
+                <li id="A4b1">
+                  <a href="#A4b1">
+                    <span class="cubing-icon icon-A4b1"></span>
+                    <span>cubing-icon icon-A4b1</span>
+                  </a>
                 </li>
               
-                <li>
-                  <span class="cubing-icon icon-A4d1"></span>
-                  <span>cubing-icon icon-A4d1</span>
+                <li id="A4d1">
+                  <a href="#A4d1">
+                    <span class="cubing-icon icon-A4d1"></span>
+                    <span>cubing-icon icon-A4d1</span>
+                  </a>
                 </li>
               
-                <li>
-                  <span class="cubing-icon icon-A6c"></span>
-                  <span>cubing-icon icon-A6c</span>
+                <li id="A6c">
+                  <a href="#A6c">
+                    <span class="cubing-icon icon-A6c"></span>
+                    <span>cubing-icon icon-A6c</span>
+                  </a>
                 </li>
               
-                <li>
-                  <span class="cubing-icon icon-A6d"></span>
-                  <span>cubing-icon icon-A6d</span>
+                <li id="A6d">
+                  <a href="#A6d">
+                    <span class="cubing-icon icon-A6d"></span>
+                    <span>cubing-icon icon-A6d</span>
+                  </a>
                 </li>
               
-                <li>
-                  <span class="cubing-icon icon-A6e"></span>
-                  <span>cubing-icon icon-A6e</span>
+                <li id="A6e">
+                  <a href="#A6e">
+                    <span class="cubing-icon icon-A6e"></span>
+                    <span>cubing-icon icon-A6e</span>
+                  </a>
                 </li>
               
             </ul>
