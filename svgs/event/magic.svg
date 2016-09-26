@@ -1,0 +1,19 @@
+<svg width="500" height="500" xmlns="http://www.w3.org/2000/svg">
+ <metadata id="metadata40">image/svg+xml</metadata>
+
+ <g>
+  <title>background</title>
+  <rect fill="none" id="canvas_background" height="402" width="582" y="-1" x="-1"/>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <rect fill="#000000" id="rect20" height="116.05709" width="116.05709" y="29.491526" x="191.53624"/>
+  <rect fill="#000000" id="rect22" height="116.05709" width="116.05709" y="29.491526" x="354.01617"/>
+  <rect fill="#000000" id="rect24" height="116.05709" width="116.05709" y="191.97145" x="29.636597"/>
+  <rect fill="#000000" id="rect26" height="116.05709" width="116.05709" y="191.97145" x="192.11653"/>
+  <rect fill="#000000" id="rect28" height="116.05709" width="116.05709" y="191.97145" x="354.59647"/>
+  <rect fill="#000000" id="rect30" height="116.05709" width="116.05709" y="354.45139" x="29.926739"/>
+  <rect fill="#000000" id="rect32" height="116.05709" width="116.05709" y="354.45139" x="192.40666"/>
+  <rect fill="#000000" id="rect34" height="116.05709" width="116.05709" y="354.45139" x="354.8866"/>
+ </g>
+</svg>
